@@ -1,0 +1,74 @@
+table {
+    border-collapse: collapse;
+    margin: auto; 
+}
+td {
+    width: 45px;
+    height: 58px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.UpDownSpace {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.KeySpaceAround {
+    display: flex;
+    gap: 8px;
+}
+
+.KeyCell {
+    background-color: #4b4144;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Mitr', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 2em;
+    color: white;
+}
+
+#a {
+    margin-right: 40px;
+}
+
+#b {
+    margin-left: 28px;
+}
+#c {
+    margin-left: 54px;
+}
+
+.Size {
+    font-weight: bold;
+    font-weight: 800;
+    font-size: 1em;
+    transform: scaleX(-1); 
+    display: inline-block; 
+}
+
+#SecondMargin {
+   margin-left: 20px;
+}
+
+.ThirdMargin {
+    width: 150px;
+    background-color: #4b4144;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Mitr', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 2em;
+    color: white;
+    margin-left: 36px;
+}
